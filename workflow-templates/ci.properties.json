@@ -1,9 +1,12 @@
 {
-    "name": "tst"
-    "description": ""
+    "name": "tst template"
+    "description": "CI workflow template"
     "categories": [
       "bash"
       ],
-    "filepatterns": [
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
     ]
 }
