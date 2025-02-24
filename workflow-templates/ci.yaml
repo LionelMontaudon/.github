@@ -1,0 +1,11 @@
+name: test
+
+on:
+  push:
+    banches: [ $default-branch ]
+  pull_request:
+    banches: [ $default-branch ]
+
+jobs:
+  build:
+  
